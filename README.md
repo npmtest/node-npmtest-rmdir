@@ -1,6 +1,6 @@
 # npmtest-rmdir
 
-#### test coverage for  [rmdir (v1.2.0)](https://github.com/dreamerslab/node.rmdir)  [![npm package](https://img.shields.io/npm/v/npmtest-rmdir.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rmdir) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rmdir.svg)](https://travis-ci.org/npmtest/node-npmtest-rmdir)
+#### basic test coverage for  [rmdir (v1.2.0)](https://github.com/dreamerslab/node.rmdir)  [![npm package](https://img.shields.io/npm/v/npmtest-rmdir.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rmdir) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rmdir.svg)](https://travis-ci.org/npmtest/node-npmtest-rmdir)
 
 #### Remove all files in the given path recursively
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rmdir/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rmdir/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rmdir/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rmdir/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rmdir/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rmdir/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rmdir/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rmdir/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rmdir/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rmdir/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rmdir/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rmdir/build/coverage.html/index.html)
 
@@ -103,7 +103,8 @@
     "scripts": {
         "test": "node test/run.js"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
